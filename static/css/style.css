@@ -574,9 +574,15 @@ height: 15px;
 }
 /* HERO PARALLAX VERSION */
 .hero-area {
-	background-color: #f1f1f1;
-	color: #ffffff;
+    background-color: #f1f1f1;
+    color: #ffffff;
+	background-image: url("{% static 'img/hero/tree.png' %}");
+	background-size: cover;
+	background-position: center;
 }
+
+
+
 .full-height {
 	min-height: 100vh;
 }
